@@ -1,9 +1,9 @@
 # Incremental Contour Based Segmentation #
 
+[![Docker Build Status](https://img.shields.io/docker/build/icra2017/incremental_dude_ros.svg)](https://hub.docker.com/r/icra2017/incremental_dude_ros/)
+
 Implementation of the Incremental Contour-Based Topological Segmentation  in structured or unstructured environments.
 We transform the occupancy grid into a set of polygons, then we use the function  [Dual Space Decomposition](http://masc.cs.gmu.edu/wiki/Dude2D) to segment them. The incremental version only decompose the Differences in the Maps
-
-
 
 ### Pre requisites ###
 
@@ -57,7 +57,9 @@ The requisites for ROS nodes
 
 - Fermin L., Neira J. and Castellanos, J.A. Incremental Contour-Based Topological Segmentation for Robot Exploration. *2017 IEEE International Conference on Robotics and Automation, ICRA 2017*. (*submitted*)
 
+## Run in Docker
 
+Available soon.
 
 
 
