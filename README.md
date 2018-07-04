@@ -59,8 +59,15 @@ The requisites for ROS nodes
 
 ## Run in Docker
 
-Available soon.
+```
+$ docker run -it --rm icra2017/incremental_dude_ros
+root@947a7fdaf307:~# source /opt/ros/indigo/setup.bash
+root@947a7fdaf307:~# source /root/catkin_ws/devel/setup.bash
+root@947a7fdaf307:~# roscore &
+root@947a7fdaf307:~# rosrun inc_dude inc_dude 3
+```
 
+TODO: get simulation data
 
 
 
